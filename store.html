@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> /
+    <title>Store</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+        
+        .Navbar-brand {
+            color: green;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 800;
+            font-size: larger;
+            font-style: italic;
+        }
+        
+        .navbar-brand {
+            font-size: 2rem;
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .navbar-brand :hover {
+            color: green;
+        }
+        
+        .nav-link {
+            margin-right: 10px;
+            margin-top: 10px;
+            color: black;
+            font-family: 'Paytone One', sans-serif;
+            text-transform: uppercase;
+        }
+        
+        .nav-link :hover {
+            color: black;
+        }
+        
+        .search {
+            height: 40px;
+            width: 80%;
+            border-radius: 60px;
+            outline: none;
+            margin-right: -35px;
+            border-color: lime;
+        }
+        
+        .btn0 {
+            height: 40px;
+            width: 40%;
+            outline: none;
+            border: none;
+            background-color: peru;
+            color: white;
+            border: radius 60px;
+            font-weight: 700;
+        }
+        
+        .main {
+            background: url(fruits-and-vegs759-1-1.jpg) no-repeat;
+            object-position: 2%;
+            background-size: cover;
+            height: 100vh;
+            background-position: 50% 50%;
+            width: 100%;
+        }
+        
+        .main h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 4rem;
+            font-weight: 700;
+            color: whitesmoke;
+        }
+        
+        .btn1 {
+            height: 45px;
+            width: 35%;
+            border: none;
+            outline: none;
+            background-color: red;
+            color: white;
+            font-weight: 700;
+            border-radius: 60px;
+        }
+        
+        .btn1:hover {
+            background-color: rgb(250, 55, 44);
+            transition: 0.5s;
+        }
+        
+        .h1 {
+            font-weight: 700;
+        }
+        
+        .news {
+            background-color: black;
+            color: white;
+        }
+        
+        .btn2 {
+            height: 45px;
+            width: 100px;
+            background: white;
+            margin-left: -10px;
+            border: 2px solid white;
+            font-weight: 600;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container ">
+            <a class="Navbar-brand" href="#">NATURAL HEALTHY FOOD</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav m-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="store.html">Store</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="contact.html">
+                  Contact
+                </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us </a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="Products">
+        <div class="container py-5">
+            <div class="row py-2">
+                <div class="col-1g-2 m-auto text-center">
+                    <h1> Food Groups</h1>
+                    <h6 style="color: red;">Be Healthy Natural Food</h6>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 text-center">
+                <div class="card border-0 bg-light mb-2">
+                    <div class="card-body">
+                        <img src="l-intro-1654106213.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <h6 style="color: green;">Vegetables</h6>
+                <p>A diet rich in vegetables and fruits can lower blood pressure, reduce the risk of heart disease and stroke, prevent some types of cancer, lower risk of eye and digestive problems, and have a positive effect upon blood sugar, which can
+                    help keep appetite in check.
+
+                </p>
+            </div>
+            <div class="col-lg-2 text-center">
+                <div class="card border-0 bg-light mb-2">
+                    <div class="card-body">
+                        <img src="dreamstime_m_2.jpg" class="img-fluid">
+
+                    </div>
+                </div>
+                <h6 style="color: green;">Fruits</h6>
+                <p>Some of the healthiest fruits include pineapple, apples, blueberries, and mangos. You should eat three servings of fruit a day as part of a healthy diet. Eating fruit improves heart health, reduces inflammation, and boosts your immune
+                    system </p>
+            </div>
+
+            <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light mb-2">
+                    <div class="card-body">
+                        <img src="the-40-best-high-protein-foods-header-960x540.jpg" class="img-fluid" width="300px" height="500px">
+                    </div>
+                </div>
+                <h6 style="color: green;">Protein</h6>
+                <p>Protein is an essential macronutrient, but not all food sources of protein are created equal, and you may not need as much as you think. Learn the basics about protein and shaping your diet with healthy protein foods.
+                </p>
+            </div>
+
+            <div class="col-lg-2 text-center">
+                <div class="card border-0 bg-light mb-2">
+                    <div class="card-body">
+                        <img src="dairy-products-thumb.jpg" class="img-fluid">
+                    </div>
+                </div>
+                <h6 style="color: green;">Dairy</h6>
+                <p>Dairy products like milk, yogurt, cheese, and cottage cheese, are good sources of calcium, which helps maintain bone density and reduces the risk of fractures.
+                </p>
+            </div>
+
+
+
+        </div>
+        <div>
+
+
+        </div>
+
+        </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
